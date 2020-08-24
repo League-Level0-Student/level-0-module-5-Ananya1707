@@ -13,7 +13,7 @@ public class Snowflake {
 
 		// #2. Set your robot’s position to x=300 and y=300
 	
-		robot.moveTo(100,100);
+		robot.moveTo(300,300);
 		
 
 		// #3. Put the robot's pen down
@@ -36,7 +36,7 @@ public class Snowflake {
 
 			
 			// #8. turn the robot to the right by 60
-			robot.setAngle(90);
+			robot.turn(60);
 			robot.move(60);
 			
 			
@@ -53,10 +53,10 @@ public class Snowflake {
 			
 			
 			// #9. Use a for loop to do everything (#10, #11) 6 times ( use j as a counter )
-			for(int x = 0; x < 6 ; i++) {
+			for(int x = 0; x < 6 ; x++) {
 			
 					// #10. turn the robot to the left by 60
-					robot.setAngle(300);
+					robot.turn(-60);
 		
 					
 					// #11. move the robot by 50 (play the start button)
